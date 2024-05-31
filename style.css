@@ -1,0 +1,71 @@
+/* ?Global Css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: ;
+  --secdColor: ;
+
+  --headingFont: "Poppins", sans-serif;
+  --bodyFont: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(27, 27, 27);
+}
+
+.card-parent {
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.first-card {
+  width: 325px;
+  border-radius: 5px;
+  border: 2px solid rgb(24, 4, 201);
+  padding: 40px 30px;
+  text-align: center;
+  background-color: azure;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 180px;
+  margin: auto;
+  text-align: center;
+}
+.card-img h3 {
+  margin-top: 20px;
+  font-family: var(--headingFont);
+}
+.card-img h4 {
+  color: rgba(0, 0, 0, 0.789);
+}
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+p {
+  margin-top: 25px;
+}
+.social-icon {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.social-icon i {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.721);
+  transition: 0.3s;
+}
+.social-icon i:hover {
+  color: blue;
+  cursor: pointer;
+}
